@@ -46,6 +46,7 @@ h1 {
 
 .main {
 	display: flex;
+	padding: 10px;
 }
 
 .navigation {
@@ -115,8 +116,8 @@ h1 {
 		<div class="header">
 			<h1>Green's Blog</h1>
 			<div id="header-icon">
-				<span class="material-symbols-outlined">youtube_activity</span>
 				<span class="material-symbols-outlined">photo_camera</span>
+				<span class="material-symbols-outlined">youtube_activity</span>
 			</div>
 		</div>
 		<div class=main>
