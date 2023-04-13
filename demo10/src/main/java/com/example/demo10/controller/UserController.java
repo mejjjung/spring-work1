@@ -37,7 +37,13 @@ public class UserController {
 //		}
 		System.out.println("여기 코드 실행 할려면 로그인 해라");
 		// 상대 위치 들어왔음 --> 현재 그 시점에서 맞게 설계 
-		// 위치에서 상대 경로 찾을 지 절대 경로 찾을지 결정 
+		// 위치에서 상대 경로 찾을 지 절대 경로 찾을지 결정
+		
+		// --> http:localhost:8080/info.html URL
+		// --> http:localhost:8080/auth/info URI
+		// redirect <-- 어디까지 갔다 오냐면 (브라우저 까지 돌아 갔다 옴)
+		// 새로운 request와 response 객체가 만들어 진다. 
+		
 		return "/info.html";
 	}
 	
